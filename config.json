@@ -1,0 +1,15 @@
+{
+    "detector": "sift",
+    "max_descriptors": 5000,
+    "max_distance": 0.5,
+    "quality_threshold": 0.7,
+    "min_matches": 10,
+    "max_rotation_angle": 30,
+    "max_scale_change": 2.0,
+    "min_scale_change": 0.5,
+    "max_perspective": 0.02,
+    "combination_mode": "central",
+    "blend_mode": "central",
+    "output_path": "./resultado.jpg",
+    "carpeta_entrada": "imagenes_2"
+}

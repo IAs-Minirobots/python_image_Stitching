@@ -1,0 +1,9 @@
+services:
+  stitcher:
+    build: .
+    container_name: image-stitcher
+    volumes:
+      - ./imagenes:/app/imagenes
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
